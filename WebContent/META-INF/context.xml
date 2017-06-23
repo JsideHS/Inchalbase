@@ -1,0 +1,13 @@
+<Context> 
+ <Resource name="jdbc/Database" 
+   auth="Container"
+   type="javax.sql.DataSource" 
+   username="hjang" 
+   password="4748"
+   driverClassName="org.mariadb.jdbc.Driver"
+   factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+   url="jdbc:mariadb://localhost:3306/db1"
+   maxActive="500" 
+   maxIdle="100"/>  
+
+</Context>
